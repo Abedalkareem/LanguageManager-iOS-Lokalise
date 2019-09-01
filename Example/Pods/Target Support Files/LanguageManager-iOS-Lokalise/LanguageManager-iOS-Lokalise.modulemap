@@ -1,0 +1,6 @@
+framework module LanguageManager_iOS_Lokalise {
+  umbrella header "LanguageManager-iOS-Lokalise-umbrella.h"
+
+  export *
+  module * { export * }
+}

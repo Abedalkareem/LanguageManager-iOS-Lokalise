@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6375EDD231BBDAD00FF6A3B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6375ED5231BBDAD00FF6A3B /* MainViewController.swift */; };
+		C6375EDE231BBDAD00FF6A3B /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6375ED6231BBDAD00FF6A3B /* SplashViewController.swift */; };
+		C6375EE0231BBDAD00FF6A3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6375ED8231BBDAD00FF6A3B /* AppDelegate.swift */; };
+		C6375EE3231BBE7800FF6A3B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6375ED0231BBDAD00FF6A3B /* LaunchScreen.xib */; };
+		C6375EE4231BBE7800FF6A3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6375ED2231BBDAD00FF6A3B /* Main.storyboard */; };
+		C6375EE5231BBE8200FF6A3B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6375ECC231BBDAD00FF6A3B /* Localizable.strings */; };
+		C6375EE6231BBE8200FF6A3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6375ED7231BBDAD00FF6A3B /* Images.xcassets */; };
+		FA263C2010AFD85D3CCBE278 /* Pods_LanguageManager_iOS_Lokalise_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F09A2F7774D4EBA0B20866 /* Pods_LanguageManager_iOS_Lokalise_Example.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0093FDB2F3AEABEAF9C63F06 /* LanguageManger-iOS-Lokalise.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "LanguageManger-iOS-Lokalise.podspec"; path = "../LanguageManger-iOS-Lokalise.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0C657FBA5865B621534E9B27 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0D76B229664E02E5A65B8229 /* Pods-LanguageManger-iOS-Lokalise_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanguageManger-iOS-Lokalise_Tests.release.xcconfig"; path = "Target Support Files/Pods-LanguageManger-iOS-Lokalise_Tests/Pods-LanguageManger-iOS-Lokalise_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1A4C0D372BE356F24B089F4E /* Pods-LanguageManger-iOS-Lokalise_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanguageManger-iOS-Lokalise_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LanguageManger-iOS-Lokalise_Tests/Pods-LanguageManger-iOS-Lokalise_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B447E8431BB4F527D705A01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* LanguageManager-iOS-Lokalise_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LanguageManager-iOS-Lokalise_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86193079C1788D4EC4691D5E /* Pods-LanguageManger-iOS-Lokalise_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanguageManger-iOS-Lokalise_Example.debug.xcconfig"; path = "Target Support Files/Pods-LanguageManger-iOS-Lokalise_Example/Pods-LanguageManger-iOS-Lokalise_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		88B7C9A014438C617EB9E99E /* Pods-LanguageManger-iOS-Lokalise_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanguageManger-iOS-Lokalise_Example.release.xcconfig"; path = "Target Support Files/Pods-LanguageManger-iOS-Lokalise_Example/Pods-LanguageManger-iOS-Lokalise_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A237CD18D2DEA5D3BD11CA54 /* Pods_LanguageManger_iOS_Lokalise_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LanguageManger_iOS_Lokalise_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6375ECD231BBDAD00FF6A3B /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C6375ECE231BBDAD00FF6A3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C6375ED1231BBDAD00FF6A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C6375ED3231BBDAD00FF6A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6375ED5231BBDAD00FF6A3B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C6375ED6231BBDAD00FF6A3B /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		C6375ED7231BBDAD00FF6A3B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C6375ED8231BBDAD00FF6A3B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6375ED9231BBDAD00FF6A3B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6F09A2F7774D4EBA0B20866 /* Pods_LanguageManager_iOS_Lokalise_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LanguageManager_iOS_Lokalise_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B80318C40749B7976A40DC /* Pods-LanguageManager-iOS-Lokalise_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanguageManager-iOS-Lokalise_Example.release.xcconfig"; path = "Target Support Files/Pods-LanguageManager-iOS-Lokalise_Example/Pods-LanguageManager-iOS-Lokalise_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FD8BAB132CA3E77F67342C25 /* Pods-LanguageManager-iOS-Lokalise_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanguageManager-iOS-Lokalise_Example.debug.xcconfig"; path = "Target Support Files/Pods-LanguageManager-iOS-Lokalise_Example/Pods-LanguageManager-iOS-Lokalise_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		607FACCD1AFB9204008FA782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA263C2010AFD85D3CCBE278 /* Pods_LanguageManager_iOS_Lokalise_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		607FACC71AFB9204008FA782 = {
+			isa = PBXGroup;
+			children = (
+				607FACF51AFB993E008FA782 /* Podspec Metadata */,
+				607FACD11AFB9204008FA782 /* Products */,
+				C9AAE328F4EFD35FD167EDEE /* Pods */,
+				C21EA82D1B577381A1A1C4FC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		607FACD11AFB9204008FA782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD01AFB9204008FA782 /* LanguageManager-iOS-Lokalise_Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				0093FDB2F3AEABEAF9C63F06 /* LanguageManger-iOS-Lokalise.podspec */,
+				4B447E8431BB4F527D705A01 /* README.md */,
+				0C657FBA5865B621534E9B27 /* LICENSE */,
+				C6375ECB231BBDAD00FF6A3B /* LanguageManager-iOS-Lokalise */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		C21EA82D1B577381A1A1C4FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A237CD18D2DEA5D3BD11CA54 /* Pods_LanguageManger_iOS_Lokalise_Tests.framework */,
+				E6F09A2F7774D4EBA0B20866 /* Pods_LanguageManager_iOS_Lokalise_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6375ECB231BBDAD00FF6A3B /* LanguageManager-iOS-Lokalise */ = {
+			isa = PBXGroup;
+			children = (
+				C6375ECC231BBDAD00FF6A3B /* Localizable.strings */,
+				C6375ECF231BBDAD00FF6A3B /* Screens */,
+				C6375ED4231BBDAD00FF6A3B /* ViewControllers */,
+				C6375ED7231BBDAD00FF6A3B /* Images.xcassets */,
+				C6375ED8231BBDAD00FF6A3B /* AppDelegate.swift */,
+				C6375ED9231BBDAD00FF6A3B /* Info.plist */,
+			);
+			path = "LanguageManager-iOS-Lokalise";
+			sourceTree = "<group>";
+		};
+		C6375ECF231BBDAD00FF6A3B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C6375ED0231BBDAD00FF6A3B /* LaunchScreen.xib */,
+				C6375ED2231BBDAD00FF6A3B /* Main.storyboard */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		C6375ED4231BBDAD00FF6A3B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C6375ED5231BBDAD00FF6A3B /* MainViewController.swift */,
+				C6375ED6231BBDAD00FF6A3B /* SplashViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C9AAE328F4EFD35FD167EDEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86193079C1788D4EC4691D5E /* Pods-LanguageManger-iOS-Lokalise_Example.debug.xcconfig */,
+				88B7C9A014438C617EB9E99E /* Pods-LanguageManger-iOS-Lokalise_Example.release.xcconfig */,
+				1A4C0D372BE356F24B089F4E /* Pods-LanguageManger-iOS-Lokalise_Tests.debug.xcconfig */,
+				0D76B229664E02E5A65B8229 /* Pods-LanguageManger-iOS-Lokalise_Tests.release.xcconfig */,
+				FD8BAB132CA3E77F67342C25 /* Pods-LanguageManager-iOS-Lokalise_Example.debug.xcconfig */,
+				E9B80318C40749B7976A40DC /* Pods-LanguageManager-iOS-Lokalise_Example.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		607FACCF1AFB9204008FA782 /* LanguageManager-iOS-Lokalise_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "LanguageManager-iOS-Lokalise_Example" */;
+			buildPhases = (
+				173479217808B682A8771822 /* [CP] Check Pods Manifest.lock */,
+				607FACCC1AFB9204008FA782 /* Sources */,
+				607FACCD1AFB9204008FA782 /* Frameworks */,
+				607FACCE1AFB9204008FA782 /* Resources */,
+				6CA02F44F95CAF5DAC9DA047 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LanguageManager-iOS-Lokalise_Example";
+			productName = "LanguageManger-iOS-Lokalise";
+			productReference = 607FACD01AFB9204008FA782 /* LanguageManager-iOS-Lokalise_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		607FACC81AFB9204008FA782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = CocoaPods;
+				TargetAttributes = {
+					607FACCF1AFB9204008FA782 = {
+						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 1030;
+					};
+				};
+			};
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "LanguageManager-iOS-Lokalise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = 607FACC71AFB9204008FA782;
+			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				607FACCF1AFB9204008FA782 /* LanguageManager-iOS-Lokalise_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		607FACCE1AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6375EE5231BBE8200FF6A3B /* Localizable.strings in Resources */,
+				C6375EE6231BBE8200FF6A3B /* Images.xcassets in Resources */,
+				C6375EE3231BBE7800FF6A3B /* LaunchScreen.xib in Resources */,
+				C6375EE4231BBE7800FF6A3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		173479217808B682A8771822 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LanguageManager-iOS-Lokalise_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CA02F44F95CAF5DAC9DA047 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LanguageManager-iOS-Lokalise_Example/Pods-LanguageManager-iOS-Lokalise_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LanguageManager-iOS-Lokalise/LanguageManager_iOS_Lokalise.framework",
+				"${PODS_ROOT}/Lokalise/Lokalise.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LanguageManager_iOS_Lokalise.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lokalise.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LanguageManager-iOS-Lokalise_Example/Pods-LanguageManager-iOS-Lokalise_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		607FACCC1AFB9204008FA782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6375EE0231BBDAD00FF6A3B /* AppDelegate.swift in Sources */,
+				C6375EDD231BBDAD00FF6A3B /* MainViewController.swift in Sources */,
+				C6375EDE231BBDAD00FF6A3B /* SplashViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C6375ECC231BBDAD00FF6A3B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6375ECD231BBDAD00FF6A3B /* ar */,
+				C6375ECE231BBDAD00FF6A3B /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		C6375ED0231BBDAD00FF6A3B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6375ED1231BBDAD00FF6A3B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		C6375ED2231BBDAD00FF6A3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6375ED3231BBDAD00FF6A3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		607FACED1AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		607FACEE1AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		607FACF01AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD8BAB132CA3E77F67342C25 /* Pods-LanguageManager-iOS-Lokalise_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/LanguageManager-iOS-Lokalise/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		607FACF11AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9B80318C40749B7976A40DC /* Pods-LanguageManager-iOS-Lokalise_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/LanguageManager-iOS-Lokalise/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "LanguageManager-iOS-Lokalise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACED1AFB9204008FA782 /* Debug */,
+				607FACEE1AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "LanguageManager-iOS-Lokalise_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACF01AFB9204008FA782 /* Debug */,
+				607FACF11AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
+}
