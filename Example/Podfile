@@ -3,9 +3,4 @@ use_frameworks!
 target 'LanguageManger-iOS-Lokalise_Example' do
   pod 'LanguageManger-iOS-Lokalise', :path => '../'
 
-  target 'LanguageManger-iOS-Lokalise_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

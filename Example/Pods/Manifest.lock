@@ -1,0 +1,23 @@
+PODS:
+  - LanguageManger-iOS-Lokalise (0.1.2):
+    - Lokalise (~> 0.10.0)
+  - Lokalise (0.10.0)
+
+DEPENDENCIES:
+  - LanguageManger-iOS-Lokalise (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Lokalise
+
+EXTERNAL SOURCES:
+  LanguageManger-iOS-Lokalise:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LanguageManger-iOS-Lokalise: 7e2783a47c8f25d6a494db2ee4f1f71bf3b1fd37
+  Lokalise: bc42066e2dde59b43b46e88ecc0b92b7d593dc72
+
+PODFILE CHECKSUM: 94408fa53a23ffa3772cf21ebe503c704e5e2f5f
+
+COCOAPODS: 1.7.5
