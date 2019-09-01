@@ -1,15 +1,43 @@
-# LanguageManager-iOS-Lokalise
 
-[![CI Status](https://img.shields.io/travis/Abedalkareem/LanguageManager-iOS-Lokalise.svg?style=flat)](https://travis-ci.org/Abedalkareem/LanguageManager-iOS-Lokalise)
-[![Version](https://img.shields.io/cocoapods/v/LanguageManager-iOS-Lokalise.svg?style=flat)](https://cocoapods.org/pods/LanguageManager-iOS-Lokalise)
-[![License](https://img.shields.io/cocoapods/l/LanguageManager-iOS-Lokalise.svg?style=flat)](https://cocoapods.org/pods/LanguageManager-iOS-Lokalise)
-[![Platform](https://img.shields.io/cocoapods/p/LanguageManager-iOS-Lokalise.svg?style=flat)](https://cocoapods.org/pods/LanguageManager-iOS-Lokalise)
+<p align="center">
+<img src="https://raw.githubusercontent.com/Abedalkareem/LanguageManager-iOS-Lokalise/master/header.png">  </center>
+</p>
+<br>
+
+Language manager used to handle change app language without restart the app.
+
+<br>
+
+
+## ScreenShots
+
+<img src="https://raw.githubusercontent.com/Abedalkareem/LanguageManager-iOS/master/screenrec.gif"  width="450">
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+For more information and examples, please visit the [LangaugeManager-iOS repo](https://github.com/Abedalkareem/LanguageManager-iOS).
 
-## Requirements
+
+## Usage
+
+In your app delegate you need to set the following values:
+
+```
+  LanguageManager.shared.lokaliseToken = "App Token"
+  LanguageManager.shared.lokaliseProjectID = "Project id"
+  LanguageManager.shared.localizationType = .release
+
+  LanguageManager.shared.defaultLanguage = .en
+```
+
+To check for new update on your strings:
+
+```
+  LanguageManager.shared.checkLocalizationUpdates { updated, error in
+    print(error?.localizedDescription ?? "")
+  }
+```
 
 ## Installation
 
