@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LanguageManager-iOS-Lokalise'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'Language manager used to handle change app language.'
 
 # This description is used to generate tags and improve search results.
@@ -39,5 +39,5 @@ Language manager used to handle change app language without restart the app.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'Lokalise', '~> 0.10.0'
+   s.dependency 'Lokalise', '~> 0.10.2'
 end
