@@ -33,6 +33,9 @@ Language manager used to handle change app language without restart the app.
 
   s.source_files = 'LanguageManager-iOS-Lokalise/Classes/**/*'
   
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
   # s.resource_bundles = {
   #   'LanguageManager-iOS-Lokalise' => ['LanguageManager-iOS-Lokalise/Assets/*.png']
   # }
